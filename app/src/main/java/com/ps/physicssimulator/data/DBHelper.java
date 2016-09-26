@@ -347,6 +347,8 @@ public class DBHelper extends SQLiteOpenHelper {
                                     "Where:<br/>" +
                                     "\\(x_i\\) = initial position of the object<br/>" +
                                     "\\(x_f\\) = final position of the object<sup>[2]</sup><sup>[3]</sup><br/>"},
+                    {"Scalar and Vector Values","Positive and Negative Vector Values",
+                            "Vector quantities such as displacement and velocity cannot have negative values, but it can be shown as a negative in the opposite direction. For example, \\(5m\\) is going upwards or to the right, while \\(-5m\\) is directed downwards or to the left.<sup>[2]</sup><sup>[3]</sup><br/>"},
                     {"Scalar and Vector Values", "Scalar and Vector Values References", "<b><center>References</center></b><br>" +
                             "<sup>[1]</sup>Scalar and Vectors (2016). Retrieved from http://www.physicsclassroom.com/class/1DKin/Lesson-1/Scalars-and-Vectors<br><br>\n" +
                             "<sup>[2]</sup>Paul Cotarlea (2014). Learn Physics (Version 1.0.6) [Mobile Application Software]. Retrieved from https://play.google.com/store/apps<br><br>\n" +
